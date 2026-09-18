@@ -7,6 +7,7 @@ resource "aws_vpc" "main" {
 
   tags = {
     Name = "terraform-vpc"
+    date = "18-sept"
   }
 }
 
